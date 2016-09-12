@@ -20,7 +20,7 @@ public class Registration implements Serializable {
     private Long registrationID;
     private String verificationStatus;
     private String date;
-    private double OTP;
+    private Double OTP;
 
 
 

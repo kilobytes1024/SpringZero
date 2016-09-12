@@ -35,7 +35,9 @@ public class UserController {
 
     @RequestMapping(value = "/test")
     public ResponseEntity<Object> test(){
-        System.out.print(Utils.isOTPStillValid("tst"));
+        //System.out.println(Utils.isOTPStillValid("tst"));
+
+
         return new ResponseEntity<Object>(userService.findAllUsers(), HttpStatus.OK);
     }
 
